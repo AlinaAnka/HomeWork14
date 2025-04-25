@@ -1,4 +1,5 @@
-# 🚀 Автотесты для Tensor.ru  
+# ![Скриншот](Images/Logo.png)
+# Проект по автоматизации тестовых сценариев для сайта компании Tensor
 
 [![Java](https://img.shields.io/badge/Java-11-red?logo=openjdk)](https://java.com)  
 [![Tests](https://img.shields.io/badge/Tests-7_passed-green)](https://github.com/ваш-репозиторий)  
