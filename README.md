@@ -62,7 +62,7 @@ gradle clean test
 <img src="images/screenshort_allureReport.png">
 </p>  
 
-## <img src="images/Telegram.svg" width="50" height="50" /> Уведомления в Telegram с использованием бота
+## <img src="images/Telegram.svg" width="40" height="40" /> Уведомления в Telegram с использованием бота
 <p align="center">  
 <img src="images/telegramBot.png" width="500">
 </p>  
