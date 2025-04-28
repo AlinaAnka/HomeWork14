@@ -45,10 +45,11 @@ gradle clean test
 
 
 ## Allure Report
-
 ### Overview
+<img src="images/screenshort_allure.png">
 
 ### Тест-кейсы
+<img src="images/screenshort_allureReport.png">
 
 ## Уведомления в Telegram с использованием бота
 
