@@ -2,19 +2,37 @@
 
 ## 📔 Содержание:
 
-[![Java](https://img.shields.io/badge/Java-11-red?logo=openjdk)](https://java.com)  
-[![Tests](https://img.shields.io/badge/Tests-7_passed-green)](https://github.com/ваш-репозиторий)  
+## 🛠 Технологии и инструменты: 
 
-## 🔍 Описание  
-Проект включает 7 автотестов для сайта [Tensor.ru](https://tensor.ru).  
+| Java | IntelliJ <br> Idea | GitHub | JUnit <br> 5 | Gradle | Selenide | Selenoid | Alurre <br> Report | Jenkins | Telegram |  
+|------|--------------------|--------|--------------|--------|----------|----------|--------------------|---------|----------|
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-original.svg" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gradle/gradle-original.svg" width="50" height="50" /> |
+          
+          
+                   
+          
+          
+      
+          
 
-## 📸 Скриншоты  
-| Компонент       | Изображение                  |  
-|----------------|-----------------------------|  
-| Allure Report  | ![Allure](images/allure.png) |  
-| Jenkins        | ![Jenkins](images/jenkins.png) |  
+## ☑️ Примеры автоматизированных тест-кейсов:
 
-## 🛠 Технологии  
-- **Язык**: Java 11  
-- **Фреймворк**: Selenide  
-- **CI/CD**: ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?logo=jenkins)  
+## ▶️ Запуск автотестов
+
+### Запуск тестов из терминала
+### Запуск тестов на удаленном браузере
+
+## Сборка в Jenkins
+
+### Параметры сборки в Jenkins:
+
+## Allure Report
+
+### Overview
+
+### Тест-кейсы
+
+## Уведомления в Telegram с использованием бота
+
+## Примеры видео выполнения тестов на Selenoid
+
