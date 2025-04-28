@@ -35,9 +35,14 @@ gradle clean test
 ```
 
 ## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" width="50" height="50" /> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/HomeWork14/)
+<img src="images/screenshot_jenkins.png">
 
 
 ### Параметры сборки в Jenkins:
+- browser (браузер chrome)
+- browser_version (версия браузера 127.0)
+- screen_resolution (разрешение экрана 1920x1080)
+
 
 ## Allure Report
 
