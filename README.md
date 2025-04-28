@@ -51,7 +51,7 @@ gradle clean test
 -Dbrowser_version=${BROWSER_VERSION}
 ```
 
-## <img src="images/Allure_Report.svg" width="50" height="50" /> Allure Report
+## <img src="images/Allure_Report.svg" width="50" height="50" /> [Allure Report](https://jenkins.autotests.cloud/job/HomeWork14/allure/)
 ### Overview
 <p align="center">  
 <img src="images/screenshort_allure.png">
