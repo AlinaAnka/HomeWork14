@@ -1,6 +1,9 @@
 # Проект по автоматизации тестовых сценариев для сайта компании <a href="https://tensor.ru"> <img src="images/logo_tensor.png" width="200" >
 
 ## 📔 Содержание:
+- [Технологии и инструменты](#-технологии-и-инструменты)
+- [Реализованные проверки](#-реализованные-проверки)
+- [Запуск автотестов](#-запуск-автотестов)
 
 ## 🛠 Технологии и инструменты: 
 
@@ -18,6 +21,16 @@
 - Проверка раздела "Филиалы"
 - Проверка филиала "Москва"
 
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" width="50" height="50" /> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/HomeWork14/)
+<p align="center">
+<img src="images/screenshot_jenkins.png">
+</p> 
+
+### Параметры сборки в Jenkins:
+- browser (браузер chrome)
+- browser_version (версия браузера 127.0)
+- screen_resolution (разрешение экрана 1920x1080)
+
 ## ▶️ Запуск автотестов
 
 ### Запуск тестов из терминала
@@ -34,17 +47,7 @@ gradle clean test
 -Dbrowser_version=${BROWSER_VERSION}
 ```
 
-## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" width="50" height="50" /> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/HomeWork14/)
-<p align="center">
-<img src="images/screenshot_jenkins.png">
-</p> 
-
-### Параметры сборки в Jenkins:
-- browser (браузер chrome)
-- browser_version (версия браузера 127.0)
-- screen_resolution (разрешение экрана 1920x1080)
-
-## Allure Report
+## <img src="images/Allure_Report.svg" width="50" height="50" /> Allure Report
 ### Overview
 <p align="center">  
 <img src="images/screenshort_allure.png">
@@ -55,10 +58,13 @@ gradle clean test
 <img src="images/screenshort_allureReport.png">
 </p>  
 
-## Уведомления в Telegram с использованием бота
+## <img src="images/Telegram.svg" width="50" height="50" /> Уведомления в Telegram с использованием бота
 <p align="center">  
 <img src="images/telegramBot.png" width="500">
 </p>  
 
-## Примеры видео выполнения тестов на Selenoid
+## <img src="images/Selenoid.svg" width="50" height="50" /> Примеры видео выполнения тестов на Selenoid
+<p align="center">  
+<img src="images/video.gif" width="500">
+</p>
 
