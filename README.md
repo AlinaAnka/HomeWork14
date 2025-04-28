@@ -6,22 +6,36 @@
 
 | Java | IntelliJ <br> Idea | GitHub | JUnit <br> 5 | Gradle | Selenide | Selenoid | Alurre <br> Report | Jenkins | Telegram |  
 |------|--------------------|--------|--------------|--------|----------|----------|--------------------|---------|----------|
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-original.svg" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gradle/gradle-original.svg" width="50" height="50" /> | <img src="images/Selenide.svg" width="50" height="50" /> | <img src="images/Selenoid.svg" width="50" height="50" /> | <img src="images/Allure Report.svg" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" width="50" height="50" /> | <img src="images/Telegram.svg" width="50" height="50" /> |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-original.svg" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gradle/gradle-original.svg" width="50" height="50" /> | <img src="images/Selenide.svg" width="50" height="50" /> | <img src="images/Selenoid.svg" width="50" height="50" /> | <img src="images/Allure_Report.svg" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" width="50" height="50" /> | <img src="images/Telegram.svg" width="50" height="50" /> |
           
-                   
-          
-          
-      
-          
+## ☑️ Реализованные проверки:
 
-## ☑️ Примеры автоматизированных тест-кейсов:
+- Проверка заголовка на главной странице  
+- Проверка раздела "О компании"
+- Проверка раздела "Разработка ПО"
+- Проверка раздела "Работа у нас"
+- Проверка вакансии "Тестировщик ПО"
+- Проверка раздела "Филиалы"
+- Проверка филиала "Москва"
 
 ## ▶️ Запуск автотестов
 
 ### Запуск тестов из терминала
+
+```bash
+gradle clean test
+```
+
 ### Запуск тестов на удаленном браузере
 
-## Сборка в Jenkins
+```bash
+-Dbrowser=${BROWSER}
+-Dscreen_resolution=${SCREEN_RESOLUTION}
+-Dbrowser_version=${BROWSER_VERSION}
+```
+
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" width="50" height="50" /> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/HomeWork14/)
+
 
 ### Параметры сборки в Jenkins:
 
