@@ -35,23 +35,30 @@ gradle clean test
 ```
 
 ## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" width="50" height="50" /> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/HomeWork14/)
+<p align="center">
 <img src="images/screenshot_jenkins.png">
-
+</p> 
 
 ### Параметры сборки в Jenkins:
 - browser (браузер chrome)
 - browser_version (версия браузера 127.0)
 - screen_resolution (разрешение экрана 1920x1080)
 
-
 ## Allure Report
 ### Overview
+<p align="center">  
 <img src="images/screenshort_allure.png">
+</p>  
 
 ### Тест-кейсы
+<p align="center">  
 <img src="images/screenshort_allureReport.png">
+</p>  
 
 ## Уведомления в Telegram с использованием бота
+<p align="center">  
+<img src="images/telegramBot.png" width="500">
+</p>  
 
 ## Примеры видео выполнения тестов на Selenoid
 
