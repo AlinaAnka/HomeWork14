@@ -11,4 +11,8 @@ public class BranchForm {
         $(".tensor_ru-Branches-head").shouldBe(visible)
                 .shouldHave(text("Филиалы"));
     }
+    public void checkOffice() {
+        $(".tensor_ru-Branches")
+                .shouldBe(visible).shouldHave(text("Москва"));
+    }
 }

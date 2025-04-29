@@ -9,13 +9,10 @@ import static io.qameta.allure.Allure.step;
 public class TensorTests extends TestBase {
 
     MainTensorPage mainPage = new MainTensorPage();
-    HeaderPage headerPage = new HeaderPage();
     CompanyInfo companyInfo = new CompanyInfo();
     DevelopmentForm developmentForm = new DevelopmentForm();
     JobForm jobForm = new JobForm();
-    QaVacancies qaVacancies = new QaVacancies();
     BranchForm branchForm = new BranchForm();
-    MoscowOffice moscowOffice = new MoscowOffice();
 
     @Test
     @DisplayName("Проверяем главную страницу")
@@ -24,7 +21,7 @@ public class TensorTests extends TestBase {
             mainPage.openMainPage();
         });
         step("Проверяем заголовок страницы 'Разработка программного обеспечения'", () -> {
-            headerPage.checkHeader();
+            mainPage.checkHeader();
         });
     }
 
@@ -71,7 +68,7 @@ public class TensorTests extends TestBase {
             jobForm.checkJob();
         });
         step("Проверяем наличие вакансии 'Тестировщик ПО'", () -> {
-            qaVacancies.checkVacancies();
+            jobForm.checkVacancies();
         });
     }
 
@@ -96,7 +93,7 @@ public class TensorTests extends TestBase {
             branchForm.checkBranch();
         });
         step("Проверяем наличие филиала 'Москва'", () -> {
-            moscowOffice.checkOffice();
+            branchForm.checkOffice();
         });
     }
 }
